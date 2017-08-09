@@ -12,7 +12,10 @@ angular.module('todoApp',[])
         todoList.todos.push({text:todoList.todoText, done:false});
         todoList.todoText = '';
     };
-
+ //this is new commit 
+ //this is another comment
+ //this is another 
+ //repeats
     todoList.remaining = function() {
         var count = 0;
         angular.forEach(todoList.todos, function(todo) {
